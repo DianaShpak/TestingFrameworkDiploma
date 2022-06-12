@@ -24,6 +24,6 @@ public interface SeleniumConstants {
     String BROWSER_VERSION = "browserVersion";
     String SCREEN_RESOLUTION = "screenResolution";
 
-    String REMOTE_WEB_DRIVER_PORT_AND_URN = ":4442/wd/hub";
+    String REMOTE_WEB_DRIVER_PORT_AND_URN = ":4444/wd/hub";
 
 }
