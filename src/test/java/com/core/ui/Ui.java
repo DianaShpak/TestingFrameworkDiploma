@@ -44,11 +44,11 @@ public class Ui {
 
     @Step("Take screenshot")
     private void takeScreenshot(Scenario scenario) {
-		if (scenario.isFailed()) {
+//		if (scenario.isFailed()) {
             if (driver instanceof TakesScreenshot) {
                 scenario.attach(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES), "image/png", "Screenshot");
             }
-		}
+//		}
     }
 
 }
