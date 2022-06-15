@@ -35,7 +35,7 @@ public class Ui {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
-    @Given("Test kennethreitz")
+    @Given("page - kennethreitz")
     public void applyAsDeveloper() {
         HomePage home = new HomePage(driver);
         home.isPageOpened();

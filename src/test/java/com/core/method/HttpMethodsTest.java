@@ -80,13 +80,13 @@ public class HttpMethodsTest {
 	@Then("Test post negative")
 	public void postNegative() {
 		PostResponse getResponse = methodsClient.post();
-		Assert.assertEquals(getResponse.getOrigin(), "46.188.179.8", "Check origin");
+		Assert.assertEquals(getResponse.getOrigin(), "46.188.179.8X", "Check origin");
 	}
 
 	@Then("Test put negative")
 	public void putNegative() {
 		PutResponse getResponse = methodsClient.put();
-		Assert.assertEquals(getResponse.getOrigin(), "46.188.179.8", "Check origin");
+		Assert.assertEquals(getResponse.getOrigin(), "46.188.179.8X", "Check origin");
 	}
 
 }

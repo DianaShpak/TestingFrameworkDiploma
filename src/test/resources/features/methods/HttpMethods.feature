@@ -1,4 +1,4 @@
-Feature: Testing different HTTP verbs
+Feature: Testing different HTTP methods
 
   Scenario: Launch log
     Given Test get
