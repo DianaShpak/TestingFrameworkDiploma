@@ -50,43 +50,43 @@ public class HttpMethodsTest {
 	@Given("Test get")
 	public void get() {
 		GetResponse getResponse = methodsClient.get();
-		Assert.assertEquals(getResponse.getOrigin(), "46.188.179.8", "Check origin");
+		Assert.assertEquals(getResponse.getOrigin(), "95.168.116.19", "Check origin");
 	}
 
 	@Then("Test patch")
 	public void patch() {
 		PatchResponse getResponse = methodsClient.patch();
-		Assert.assertEquals(getResponse.getOrigin(), "46.188.179.8", "Check origin");
+		Assert.assertEquals(getResponse.getOrigin(), "95.168.116.19", "Check origin");
 	}
 
 	@Then("Test delete")
 	public void delete() {
 		DeleteResponse getResponse = methodsClient.delete();
-		Assert.assertEquals(getResponse.getOrigin(), "46.188.179.8", "Check origin");
+		Assert.assertEquals(getResponse.getOrigin(), "95.168.116.19", "Check origin");
 	}
 
 	@Then("Test post")
 	public void post() {
 		PostResponse getResponse = methodsClient.post();
-		Assert.assertEquals(getResponse.getOrigin(), "46.188.179.8", "Check origin");
+		Assert.assertEquals(getResponse.getOrigin(), "95.168.116.19", "Check origin");
 	}
 
 	@Then("Test put")
 	public void put() {
 		PutResponse getResponse = methodsClient.put();
-		Assert.assertEquals(getResponse.getOrigin(), "46.188.179.8", "Check origin");
+		Assert.assertEquals(getResponse.getOrigin(), "95.168.116.19", "Check origin");
 	}
 
 	@Then("Test post negative")
 	public void postNegative() {
 		PostResponse getResponse = methodsClient.post();
-		Assert.assertEquals(getResponse.getOrigin(), "46.188.179.8X", "Check origin");
+		Assert.assertEquals(getResponse.getOrigin(), "95.168.116.19X", "Check origin");
 	}
 
 	@Then("Test put negative")
 	public void putNegative() {
 		PutResponse getResponse = methodsClient.put();
-		Assert.assertEquals(getResponse.getOrigin(), "46.188.179.8X", "Check origin");
+		Assert.assertEquals(getResponse.getOrigin(), "95.168.116.19X", "Check origin");
 	}
 
 }

@@ -159,7 +159,7 @@
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                         -DBROWSER=chrome
-                        -DBROWSER=firefox
+<!--                        -DBROWSER=firefox-->
 <!--                        -DBROWSER=opera-->
                         -DIS_VIDEO=true
                     </argLine>
@@ -168,7 +168,7 @@
                     </excludes>
                     <includes>
 <!--                        <include>**/*RunMethodsTests.java</include>-->
-<!--                        <include>**/*RunUiTests.java</include>-->
+                        <include>**/*RunUiTests.java</include>
                         <include>${METHODS_TESTS}</include>
                     </includes>
                 </configuration>
